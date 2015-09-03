@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+/* ------------ Typography ------------ */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;		/* Really only applies to Lato */
+	color: #000000;
+}
+
+p {
+	font-family: "Lato", "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;		/* Really only applies to Lato */
+	color: #000000;
+	font-size: 14pt;
+}
+
+strong {
+	font-weight: 400;
+}
+
+/* Header text */
+h1.header-text {
+	font-size: 60px;
+	color: #eee;
+}
+
+h1.large-header-text {
+	font-size: 80px;
+	font-weight: 300;
+}
+
+h1.small-header-text {
+	font-size: 40px;
+	font-weight: 100;
+}
+
+
+h1.section-title {
+	font-size: 48px;
+	text-align: center;
+}
+
+.white-text {
+	color: #FFFFFF;
+}
+
+.navbar {
+	font-family: "Lato", "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+/* ------------ Contact Icons (Font Awesome) ------------ */
+.contact-icon {
+	color: #fff;
+	font-size: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+	-webkit-transition: .4s all;
+}
+
+@media (max-width: 768px) {
+	.contact-icon {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.enlarge {
+	-webkit-transform: scale(1.25); 
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+
+/* ------------ Navigation ------------ */
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+/* ------------ Page Layout & Sections ------------*/
+.container {
+	max-width: 940px;
+}
+
+/* Account for the 50px tall sticky navbar */
+.content {
+	padding-top: 50px;
+}
+
+.section-hr {
+	color: #777;
+	border-color: inherit;
+	padding-bottom: 20px;
+}
+
+.content-section {
+	min-height: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#home {
+	padding-top: 50px;
+	background-image: url(../img/Macbook_school.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* Shift image to keep the Macbook in the centerish on smaller screen sizes*/
+@media(max-width: 768px) {
+	#home {
+		background-position: 90% 0%
+	}
+}
+
+#about {
+	/*background-color: #2D4671;*/
+	background-color: #FAFAFA;
+}
+
+.about-text {
+	text-align: left;
+	color: #000;
+}
+
+#projects {
+	background-color: #292929;
+}
+
+#experience {
+	background-color: #FAFAFA;
+}
+
+.experience-hr {
+	
+}
+
+.bottom-experience-hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.btn-gray {
+	background-color: #292929;
+}
+
+.btn-gray:hover {
+	background-color: #696969;
+}
+
+
+#contact {
+	background-image: url(../img/Macbook_keyboard.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+}
+
+.well {
+	background-color: #292929;
+	border-color: #000;
+}
+
+.well hr {
+	color: #777;
+	border-color: #777;
+}
+
+.image-container {
+
+}
+
+
+.padding-adjustment {
+	padding-left: 50px; 
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+@media(max-width: 992px) {
+	.padding-adjustment {
+		padding-left: 30px;
+		padding-top: 0px;
+	}
+}
