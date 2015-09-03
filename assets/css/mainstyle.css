@@ -15,10 +15,6 @@ p {
 	font-size: 14pt;
 }
 
-strong {
-	font-weight: 400;
-}
-
 /* Header text */
 h1.header-text {
 	font-size: 60px;
@@ -29,12 +25,6 @@ h1.large-header-text {
 	font-size: 80px;
 	font-weight: 300;
 }
-
-h1.small-header-text {
-	font-size: 40px;
-	font-weight: 100;
-}
-
 
 h1.section-title {
 	font-size: 48px;
@@ -123,6 +113,11 @@ h1.section-title {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
+	background-attachment: fixed;
+}
+
+#home:before {
+
 }
 
 #about {
@@ -168,8 +163,7 @@ h1.section-title {
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-
+	background-attachment: fixed;
 }
 
 .well {
