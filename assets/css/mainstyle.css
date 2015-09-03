@@ -116,20 +116,13 @@ h1.section-title {
 
 #home {
 	padding-top: 50px;
-	background-image: url(../img/Macbook_school.jpg);
+	background-image: url(../img/laptop_banner.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-}
-
-/* Shift image to keep the Macbook in the centerish on smaller screen sizes*/
-@media(max-width: 768px) {
-	#home {
-		background-position: 90% 0%
-	}
+	background-position: 0% 0%;
 }
 
 #about {
@@ -169,7 +162,7 @@ h1.section-title {
 
 
 #contact {
-	background-image: url(../img/Macbook_keyboard.jpg);
+	background-image: url(../img/keyboard.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
