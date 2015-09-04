@@ -106,21 +106,11 @@ h1.section-title {
 	padding-top: 50px;
 }
 
-.section-hr {
-	color: #777;
-	border-color: inherit;
-	padding-bottom: 20px;
-}
-
 .content-section {
 	min-height: 300px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	text-align: center;
-}
-
-#home {
-	padding-top: 0px;
 }
 
 #header-image {
@@ -129,7 +119,6 @@ h1.section-title {
 }
 
 #about {
-	/*background-color: #2D4671;*/
 	background-color: #FAFAFA;
 }
 
@@ -146,10 +135,6 @@ h1.section-title {
 	background-color: #FAFAFA;
 }
 
-.experience-hr {
-	
-}
-
 .bottom-experience-hr {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -164,7 +149,6 @@ h1.section-title {
 }
 
 
-
 #contact {
 
 }
@@ -176,6 +160,11 @@ h1.section-title {
 	bottom: 0px;
 }
 
+.section-hr {
+	color: #777;
+	border-color: inherit;
+	padding-bottom: 20px;
+}
 
 .well {
 	background-color: #292929;
@@ -191,16 +180,26 @@ h1.section-title {
 
 }
 
-
 .padding-adjustment {
 	padding-left: 50px; 
 	padding-right: 30px;
 	padding-top: 10px;
 }
-
 @media(max-width: 992px) {
 	.padding-adjustment {
 		padding-left: 30px;
 		padding-top: 0px;
 	}
+}
+
+/* Only applied if Javascript is disabled on the user's device */
+/* (Removed with Javascript if enabled) */
+.no-js {
+	min-height: 95vh;
+	background-image: url(../img/laptop_banner.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 20vh;
 }

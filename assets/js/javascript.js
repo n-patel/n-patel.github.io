@@ -11,11 +11,13 @@ function configureHeader()
 window.onresize = configureHeader;
 
 $(document).ready(function() {
+	$('#home').removeClass('no-js');
+	$('#home').css('padding-top', '0px');
 	configureHeader();
 })
 
 /* jQuery hack to display the header image when the user is at the top, and hide it when they're at the bottom */
-/* (so they can see the contact image) */
+/* (so they can see the contact image).  For more info, see https://github.com/arnaudbreton/background-fixed-chrome-rendering-issue */
 $(document).scroll(function() {
 	if($(this).scrollTop() > window.innerHeight) {
 		$('#header-image').hide();
