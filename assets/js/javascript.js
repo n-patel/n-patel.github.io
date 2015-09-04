@@ -1,4 +1,4 @@
-/* -------------- Javascript for my website -------------- */
+/* -------------- Custom Javascript -------------- */
 
 /* Set the header to match the height of the window */
 function configureHeader()
@@ -10,11 +10,14 @@ function configureHeader()
 }
 window.onresize = configureHeader;
 
+
+/* When the page loads, remove the no-javascript modifications */
 $(document).ready(function() {
 	$('#home').removeClass('no-js');
 	$('#home').css('padding-top', '0px');
 	configureHeader();
-})
+});
+
 
 /* jQuery hack to display the header image when the user is at the top, and hide it when they're at the bottom */
 /* (so they can see the contact image).  For more info, see https://github.com/arnaudbreton/background-fixed-chrome-rendering-issue */
@@ -26,7 +29,8 @@ $(document).scroll(function() {
 	if($(this).scrollTop() < window.innerHeight) {
 		$('#header-image').show();
 	}
-})
+});
+
 
 /* Smooth scrolling between sections */
 /* Thanks to one Devin Sturgeon (https://css-tricks.com/snippets/jquery/smooth-scrolling/) */
@@ -36,12 +40,13 @@ $('a[href*=#]:not([href=#])').click(function() {
 		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 			if (target.length) {
 				$('html,body').animate({
-					scrollTop: target.offset().top - 50			// - 50 is for the 50px high sticky navbar
+					scrollTop: target.offset().top - 50		// - 50 is for the 50px high sticky navbar
 				}, 700);
 			return false;
 		}
 	}
 });
+
 
 /* Enlarge the contact icons when they are hovered over */
 $('.contact-icon').hover(function() {
@@ -49,5 +54,3 @@ $('.contact-icon').hover(function() {
 }, function() {
 	$(this).removeClass('enlarge');
 });
-
-

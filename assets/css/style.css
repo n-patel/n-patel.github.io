@@ -12,10 +12,9 @@ p {
 	font-family: "Lato", "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;		/* Really only applies to Lato */
 	color: #000000;
-	font-size: 14pt;
+	font-size: 1em;
 }
 
-/* Header text */
 h1.header-text {
 	font-size: 3.75em;
 	color: #eee;
@@ -39,6 +38,21 @@ h1.section-title {
 	font-family: "Lato", "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 1.25em;
+}
+
+
+/* ------------ Navigation ------------ */
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
 
@@ -66,21 +80,6 @@ h1.section-title {
 }
 
 
-/* ------------ Navigation ------------ */
-
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-}
-
-
 /* ------------ Page Layout & Sections ------------*/
 .container {
 	max-width: 940px;
@@ -96,7 +95,6 @@ h1.section-title {
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
 	position: fixed;
-
 	-webkit-transform: translateZ(0);
 	pointer-events: none;
 }
@@ -159,11 +157,6 @@ h1.section-title {
 	background-color: #696969;
 }
 
-
-#contact {
-
-}
-
 #contact-image {
 	background-image: url(../img/keyboard.jpg);
 	z-index: -2;
@@ -185,22 +178,6 @@ h1.section-title {
 .well hr {
 	color: #777;
 	border-color: #777;
-}
-
-.image-container {
-
-}
-
-.padding-adjustment {
-	padding-left: 50px; 
-	padding-right: 30px;
-	padding-top: 10px;
-}
-@media(max-width: 992px) {
-	.padding-adjustment {
-		padding-left: 30px;
-		padding-top: 0px;
-	}
 }
 
 /* Only applied if Javascript is disabled on the user's device */
