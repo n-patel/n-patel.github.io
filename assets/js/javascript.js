@@ -3,13 +3,27 @@
 /* Set the header to match the height of the window */
 function configureHeader()
 {
-	document.getElementById('home').style.height = window.innerHeight - 50 +'px';
-	$('#home').css('padding-top', window.innerHeight / 5 + 'px');
+	visibleWindowHeight = window.innerHeight - 50;
+	$('#home')        .css('height', visibleWindowHeight + 'px');
+	$('#header-image').css('height', visibleWindowHeight + 'px');
+	$('#header')      .css('padding-top', visibleWindowHeight / 5);
 }
 window.onresize = configureHeader;
 
 $(document).ready(function() {
 	configureHeader();
+})
+
+/* jQuery hack to display the header image when the user is at the top, and hide it when they're at the bottom */
+/* (so they can see the contact image) */
+$(document).scroll(function() {
+	if($(this).scrollTop() > window.innerHeight) {
+		$('#header-image').hide();
+	}
+
+	if($(this).scrollTop() < window.innerHeight) {
+		$('#header-image').show();
+	}
 })
 
 /* Smooth scrolling between sections */
