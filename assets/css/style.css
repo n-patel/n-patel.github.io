@@ -73,6 +73,11 @@ h1.section-title {
     padding-top: 80px;
 }
 
+h1.project-header {
+    font-size: 2em;
+    margin-top: 0px;
+}
+
 /* ------------ Contact Icons (Font Awesome) ------------ */
 .contact-icon {
 	color: #fff;
