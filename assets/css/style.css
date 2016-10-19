@@ -78,6 +78,10 @@ h1.project-header {
     margin-top: 0px;
 }
 
+body {
+    position: relative;
+}
+
 /* ------------ Contact Icons (Font Awesome) ------------ */
 .contact-icon {
 	color: #fff;
@@ -193,6 +197,13 @@ h1.project-header {
 .section-hr {
 	color: #777;
 	border-color: inherit;
+	padding-bottom: 20px;
+}
+
+.project-hr {
+	color: #777;
+	border-color: inherit;
+    margin-top: 50px;
 	padding-bottom: 20px;
 }
 
