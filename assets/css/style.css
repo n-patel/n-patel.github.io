@@ -56,10 +56,27 @@ h1.section-title {
 }
 
 
+.profile-pic {
+    max-width: 256px;
+}
+
+.resume-pic {
+    max-height: 300px;
+    padding-left: 50px;
+}
+
+.resume-text {
+    padding-right: 30px;
+}
+
+.resume-text-container {
+    padding-top: 80px;
+}
+
 /* ------------ Contact Icons (Font Awesome) ------------ */
 .contact-icon {
 	color: #fff;
-	font-size: 3.75em;
+	font-size: 2em;
 	margin-left: 20px;
 	margin-right: 20px;
 	-webkit-transition: .4s all;
@@ -123,6 +140,10 @@ h1.section-title {
 .about-text {
 	text-align: left;
 	color: #000;
+}
+
+#resume {
+    background-color: #5170a0;
 }
 
 #projects {
@@ -190,4 +211,11 @@ h1.section-title {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 20vh;
+}
+
+
+
+
+.left-border {
+    border-left: 1px white solid;
 }
