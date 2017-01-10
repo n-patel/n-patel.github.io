@@ -72,10 +72,11 @@
 			</div><!-- /container -->
 		</div><!-- /#about -->
 
+        <!-- Resume -->
         <div id="resume" class="content-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-md-offset-3">
+                    <div class="col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5">
                         <div class="resume-text-container">
                             <h1 class="section-title white-text pull-right resume-text">
                                 R&eacutesum&eacute
@@ -83,20 +84,17 @@
                             <h4 class="section-title white-text pull-right resume-text" style="margin-top:0px">
                                 (click to view)
                             </h4>
-                        </div class="resume-text-container">
+                        </div>
                     </div>
 
-                    <div class="col-md-3 left-border">
+                    <div class="col-md-1 col-sm-1 col-xs-1 left-border">
                         <a class="resume-download" href="assets/dl/Nikhil_Patel_Resume.pdf">
                             <img class="resume-pic" alt="me" src="assets/img/Resumepng.png"></img>
                         </a>
                     </div>
-                </div>
-
-                <!-- <button class="btn btn-lg btn-primary btn-gray">Download my r&eacute;sum&eacute;</button> -->
-
-            </div>
-        </div>
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div><!-- /#resume -->
 
 		<!-- Projects -->
 		<div id="projects" class="content-section">
@@ -104,15 +102,18 @@
 				<h1 class="section-title white-text">Projects</h1>
 				<hr class="section-hr">
 
-                <div class="media">
-                    <h1 class="project-header white-text">DayCal.io</h1>
+                <div class="row">
+                    <h1 class="project-header white-text text-left">DayCal.io</h1>
+                    <!--
+                    <a href="http://daycal.io" class="project-header-link">DayCal.io</a>
+                    <small><a href="https://github.com/n-patel/daycal">(View on GitHub)</a></small>
+                -->
 
-                    <div class="media-left">
-                        <a href="http://daycal.io">
-                            <img class="media-object" src="assets/img/daycalio.png" alt="DayCal.io" style="max-width:300px">
-                        </a>
+                    <div class="col-md-4 col-sm-4">
+                        <img class="project-img img-responsive center-block" src="assets/img/daycalio.png" alt="DayCal.io">
                     </div>
-                    <div class="media-body">
+
+                    <div class="col-md-8 col-sm-8">
                         <p class="project-text text-left white-text">
                             My current project is DayCal.io, which is a clientside webapp that allows you to schedule your day.  It's written mostly in Javascript, using D3.js and backbone.js.  It pulls data from the Trello API and then allows you to import Trello cards into an interactive daily calendar view.
                         </p>
@@ -178,6 +179,7 @@
 					<!-- A bunch of buttons -->
 					<a href=""><span class="contact-icon fa fa-envelope-square fa-fw"></span></a>
                     <a href="https://github.com/n-patel"><span class="contact-icon fa fa-github-square fa-fw"></span></a>
+                    <a href="www.linkedin.com/in/n-patel"><span class="contact-icon fa fa-linkedin-square fa-fw"></span></a>
 				</div>
 			</div><!-- /container -->
 		</div><!-- /contact -->

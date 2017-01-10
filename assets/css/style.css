@@ -58,6 +58,8 @@ h1.section-title {
 
 .profile-pic {
     max-width: 256px;
+    padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .resume-pic {
@@ -76,6 +78,7 @@ h1.section-title {
 h1.project-header {
     font-size: 2em;
     margin-top: 0px;
+    padding-left: 15px;
 }
 
 body {
@@ -85,7 +88,7 @@ body {
 /* ------------ Contact Icons (Font Awesome) ------------ */
 .contact-icon {
 	color: #fff;
-	font-size: 2em;
+	font-size: 3.0em;
 	margin-left: 20px;
 	margin-right: 20px;
 	-webkit-transition: .4s all;
@@ -234,4 +237,8 @@ body {
 
 .left-border {
     border-left: 1px white solid;
+}
+
+.project-img {
+    max-width: 100%;
 }
