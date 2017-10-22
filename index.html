@@ -62,15 +62,16 @@
                     </div>
 					<div class="col-md-8">
 						<p class="about-text">
-                            I'm a second-year at UC Berkeley studying Computer Science. I'm also interested in psychology, economics, and quantitative investment (i.e. writing algorithms to trade on the stock market).
+                            I'm a third-year at UC Berkeley studying Computer Science. Some of my interests include crytography &amp; blockchain technologies, finance, economics, and psychology (though I'll read about pretty much anything).
                         </p>
 						<p class="about-text">
-							I enjoy all kinds of software development on many different platforms; some of my favorite languages include Java, Python, C, and Swift.  For more on my programming experience, see the <a href="#experience">Experience</a> section.
+							I enjoy all kinds of software development on many different platforms, though my experience is most relevant to blockchain or full-stack web development.  I've worked extensively with Python, Java, Javascript, and a number of other languages and technologies to make some cool stuff.  For more on my programming experience, see the <a href="#experience">Experience</a> section.
 						</p>
 					</div>
 				</div><!-- /row -->
 			</div><!-- /container -->
 		</div><!-- /#about -->
+
 
         <!-- Resume -->
         <div id="resume" class="content-section">
@@ -95,6 +96,7 @@
                 </div><!-- /row -->
             </div><!-- /container -->
         </div><!-- /#resume -->
+
 
 		<!-- Projects -->
 		<div id="projects" class="content-section">
@@ -123,8 +125,8 @@
                 <hr class="project-hr">
                 <p class="text-center white-text">More project descriptions coming soon!</p>
 
-			</div>
-		</div>
+			</div><!-- /container -->
+		</div><!-- /projects -->
 
 
 		<!-- Experience -->
@@ -133,36 +135,47 @@
                 <h1 class="section-title">Experience</h1>
                 <hr class="section-hr">
 
-                <h2 class="experience-title text-left">Web Design &amp; Development</h2>
+                <h2 class="experience-title text-left">Software Engineering Intern @ Tanium</h2>
                 <p class="experience-text text-left">
-                    I'm experienced with both frontend design and backend development.  I've used HTML/CSS quite extensively, along with Javascript and some of its derivatives (jQuery, backbone, D3).  I'm used to working in the mobile-first/progress enhancement paradigm.
+                    <a href="https://www.tanium.com/">Tanium</a> is a large cybersecurity startup that provides a cutting-edge platform for endpoint management to many of the top Fortune 500 companies.
                 </p>
                 <p class="experience-text text-left">
-                    I also have some backend development experience; I've written a platform for buying and selling items in Ruby on Rails for a class project and I've thrown together a few simple backends in PHP.
+                    During the summer of 2017, I was hired as one of the interns for their first official intern program.  I spent most of the summer tackling one large problem: the collection of diagnostics on a per-product level.  Though the platform itself had some basic diagnostics, the products (which run their own separate Node servers) had no unified way to get diagnostics off of them.
+                </p>
+                <p class="experience-text text-left">
+               		I developed a standardized system to do so -- each team could import my Node module and specify which core functions they thought determined the health of the server/product.  One of the core design principles of my module was to be very plug &amp; play, requiring minimal changes to the existing codebase.
+            	</p>
+                <p class="experience-text text-left">
+                	I also designed an intelligently rendered front-end, which would take the diagnostic data and attempt to render it in the most sensible way possible.  This was an interesting design challenge, as I tried to support many layers of nesting (e.g. if a large JSON dictionary was returned, how do you view this in a way that's very readable?).
                 </p>
                 <hr class="experience-hr">
 
-				<h2 class="experience-title text-right">Game Development</h2>
+				<h2 class="experience-title text-right">Software Consultant @ Archer International</h2>
 				<p class="experience-text text-right">
-					Throughout high school, I created many plugins for a game called Minecraft.  Using the <a href="https://github.com/Bukkit/Bukkit">Bukkit API</a>, I wrote and contributed to about a dozen plugins, ranging from adding Harry Potter content to the game (e.g. spells, wands, etc) to fixing bugs present in the unmodified version of the game.  Cumulatively, my projects have received over 300,000 downloads.
+					<a href="https://www.archerimpact.com/">Archer</a> is a nonprofit focused on human-centered security and data-driven open-source investigations.  We strive to "give researchers, journalists, grassroots organizations, and freelance investigators access to tools they need to protect people from war crimes, illicit finance of terrorism, violent misinformation, human trafficking, and more."
 				</p>
 				<p class="experience-text text-right">
-					My experience as part of this community taught me the importance of open-source software and how to work collaboratively using Git.  My hard work and professional attitude were recognized by the administrators of the Bukkit community, and I was chosen to join <em>both</em> of the staff teams: the Developer Staff team and the Forum Moderation team (both of which were extremely small subsets of the 350,000-member community).  As part of the Dev Staff, I was required to decompile submissions and peruse the entire source for malicious or deceptive code.  The thousands of submissions that I read provided lots of experience studying <em>and understanding</em> other people's code.
+					I've worked in a small team to develop a proof-of-concept for a new way to gather and store evidence for the <a href="https://en.wikipedia.org/wiki/International_Criminal_Court">International Criminal Court</a>.  Using <a href="https://ipfs.io/">IPFS</a>, we created a prototype for offloading evidence in a decentralized, scalable, and secure way.
 				</p>
 				<hr class="experience-hr">
 
-				<h2 class="experience-title text-left">Desktop Development &amp; Scripting</h2>
+				<h2 class="experience-title text-left">Undergraduate Research Assistant @ UC Berkeley</h2>
 				<p class="experience-text text-left">
-					I've worked fairly extensively in Java and Python to create applications and scripts that serve a variety of purposes.  I'm familiar with many of the language-specific features and have used numerous APIs/libraries in Java (e.g. Swing, Reflection, WolframAlpha) and Python (e.g Beautiful Soup).  I'm also fairly well-versed in both C and MIPS (Assembly language).
+					<a href="https://julialang.org/">Julia</a> is a new high-level yet high-performance programming language used for numerical computing.  It gives the flexibility and readability of languages like Python while providing speeds comparable to C.
+				</p>
+				<p class="experience-text text-left">
+					I work closely with <a href="http://www.david-anthoff.com/">Professor David Anthoff</a> to implement and optimize packages that are provide additional data science abstractions in Julia.  Currently, we're working on optimizing the performance of <a href="https://github.com/davidanthoff/Query.jl/">Query.jl</a> (inspired by <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries">C#'s LINQ</a>).
 				</p>
 
 				<hr class="experience-hr">
 
-				<h2 class="experience-title text-right">Mobile Development</h2>
+				<h2 class="experience-title text-right">Software Consultant @ Blockchain at Berkeley</h2>
 				<p class="experience-text text-right">
-					Mobile development is the area that excites me most because of the ease at which apps can reach millions of people.  I love Apple's new Swift language and the iOS development workflow.  I'm currently working on a SpriteKit game written entirely in Swift.  I haven't ventured as far into Android development, but I'm familiar with many of the general ideas behind it and have a habit-tracking utility on the backburner.
+					Our small team worked to develop a proof-of-concept decentralized web service for FDA-compliant supply-chain management for pharmaceutical companies.  The <a href="https://www.fda.gov/Drugs/DrugSafety/DrugIntegrityandSupplyChainSecurity/DrugSupplyChainSecurityAct/">Drug Supply Chain Security Act</a> mandates that, over the next few years, pharmaceutical companies have more rigorous insights into their supply chain in order to help identify counterfeit, contaminated, or dangerous drugs -- and to remove these drugs before they're sold to consumers.</p>
 				</p>
-
+				<p class="experience-text text-right">
+					We wrote a smart contract that runs on the <a href="https://ethereum.org/">Ethereum blockchain</a> to accomplish this, and presented it to the organization and members of the blockchain industry at the end of the semester (after dozens of hours of research, emails, coding, and debugging).  We were awarded with the Best Project distinction.
+				</p>
 				<hr class="bottom-experience-hr">
 			</div><!-- /container -->
 		</div><!-- /experience -->
@@ -177,7 +190,7 @@
 					<hr class="section-hr">
 
 					<!-- A bunch of buttons -->
-					<a href=""><span class="contact-icon fa fa-envelope-square fa-fw"></span></a>
+					<a href="#resume"><span class="email-me contact-icon fa fa-envelope-square fa-fw"></span></a>
                     <a href="https://github.com/n-patel"><span class="contact-icon fa fa-github-square fa-fw"></span></a>
                     <a href="www.linkedin.com/in/n-patel"><span class="contact-icon fa fa-linkedin-square fa-fw"></span></a>
 				</div>

@@ -171,6 +171,7 @@ html, body {
 	background-color: #FAFAFA;
 }
 
+
 /* Re-align text on smaller screens (right-aligned text on mobile looks messy) */
 @media(max-width: 768px) {
 	.experience-title {
