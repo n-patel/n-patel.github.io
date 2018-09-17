@@ -25,10 +25,6 @@
 				<ul class="nav navbar-nav">
 					<li><a href="#home">Home</a></li>					<!-- active should change based on where on the page they are .scrollspy-->
 					<li><a href="#about">About Me</a></li>
-                    <li><a href="#resume">R&eacutesum&eacute</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#experience">Experience</a></li>
-					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
 
@@ -53,20 +49,11 @@
 		<div id="about" class="content-section">
 			<div class="container">
 
-				<h1 class="section-title">About Me</h1>
+				<h1 class="section-title">Update In Progress!</h1>
 				<hr class="section-hr">
 
 				<div class="row">
-                    <div class="col-md-4">
-                        <img class="profile-pic" alt="me" src="assets/img/me-square.png"></img>
-                    </div>
-					<div class="col-md-8">
-						<p class="about-text">
-                            I'm a third-year at UC Berkeley studying Computer Science. Some of my interests include crytography &amp; blockchain technologies, finance, economics, and psychology (though I'll read about pretty much anything).
-                        </p>
-						<p class="about-text">
-							I enjoy all kinds of software development on many different platforms, though my experience is most relevant to blockchain or full-stack web development.  I've worked extensively with Python, Java, Javascript, and a number of other languages and technologies to make some cool stuff.  For more on my programming experience, see the <a href="#experience">Experience</a> section.
-						</p>
+                    <p> As of Sept 17 2018, this website is currently undergoing a redesign.  Please check back in a few days!  In the meantime, check out my resume below.
 					</div>
 				</div><!-- /row -->
 			</div><!-- /container -->
@@ -89,113 +76,13 @@
                     </div>
 
                     <div class="col-md-1 col-sm-1 col-xs-1 left-border">
-                        <a class="resume-download" href="assets/dl/Nikhil_Patel_Resume.pdf">
+                        <a class="resume-download" href="assets/dl/ResumeNP.pdf">
                             <img class="resume-pic" alt="me" src="assets/img/Resumepng.png"></img>
                         </a>
                     </div>
                 </div><!-- /row -->
             </div><!-- /container -->
         </div><!-- /#resume -->
-
-
-		<!-- Projects -->
-		<div id="projects" class="content-section">
-			<div class="container">
-				<h1 class="section-title white-text">Projects</h1>
-				<hr class="section-hr">
-
-                <div class="row">
-                    <h1 class="project-header white-text text-left">PlanOut.today</h1>
-                    <!--
-                    <a href="http://planout.today" class="project-header-link">PlanOut.today</a>
-                    <small><a href="https://github.com/n-patel/daycal">(View on GitHub)</a></small>
-                -->
-
-                    <div class="col-md-4 col-sm-4">
-                        <img class="project-img img-responsive center-block" src="assets/img/daycalio.png" alt="DayCal.io">
-                    </div>
-
-                    <div class="col-md-8 col-sm-8">
-                        <p class="project-text text-left white-text">
-				My current project is <a href="http://PlanOut.today">PlanOut.today</a>, which is a clientside webapp that allows you to schedule your day.  It's written mostly in Javascript, using D3.js and backbone.js.  It pulls data from the Trello API and then allows you to import Trello cards into an interactive daily calendar view.
-                        </p>
-                    </div>
-                </div>
-
-                <hr class="project-hr">
-                <p class="text-center white-text">More project descriptions coming soon!</p>
-
-			</div><!-- /container -->
-		</div><!-- /projects -->
-
-
-		<!-- Experience -->
-		<div id="experience" class="content-section">
-			<div class="container">
-                <h1 class="section-title">Experience</h1>
-                <hr class="section-hr">
-
-                <h2 class="experience-title text-left">Software Engineering Intern @ Tanium</h2>
-                <p class="experience-text text-left">
-                    <a href="https://www.tanium.com/">Tanium</a> is a large cybersecurity startup that provides a cutting-edge platform for endpoint management to many of the top Fortune 500 companies.
-                </p>
-                <p class="experience-text text-left">
-                    During the summer of 2017, I was hired as one of the interns for their first official intern program.  I spent most of the summer tackling one large problem: the collection of diagnostics on a per-product level.  Though the platform itself had some basic diagnostics, the products (which run their own separate Node servers) had no unified way to get diagnostics off of them.
-                </p>
-                <p class="experience-text text-left">
-               		I developed a standardized system to do so -- each team could import my Node module and specify which core functions they thought determined the health of the server/product.  One of the core design principles of my module was to be very plug &amp; play, requiring minimal changes to the existing codebase.
-            	</p>
-                <p class="experience-text text-left">
-                	I also designed an intelligently rendered front-end, which would take the diagnostic data and attempt to render it in the most sensible way possible.  This was an interesting design challenge, as I tried to support many layers of nesting (e.g. if a large JSON dictionary was returned, how do you view this in a way that's very readable?).
-                </p>
-                <hr class="experience-hr">
-
-				<h2 class="experience-title text-right">Software Consultant @ Archer International</h2>
-				<p class="experience-text text-right">
-					<a href="https://www.archerimpact.com/">Archer</a> is a nonprofit focused on human-centered security and data-driven open-source investigations.  We strive to "give researchers, journalists, grassroots organizations, and freelance investigators access to tools they need to protect people from war crimes, illicit finance of terrorism, violent misinformation, human trafficking, and more."
-				</p>
-				<p class="experience-text text-right">
-					I've worked in a small team to develop a proof-of-concept for a new way to gather and store evidence for the <a href="https://en.wikipedia.org/wiki/International_Criminal_Court">International Criminal Court</a>.  Using <a href="https://ipfs.io/">IPFS</a>, we created a prototype for offloading evidence in a decentralized, scalable, and secure way.
-				</p>
-				<hr class="experience-hr">
-
-				<h2 class="experience-title text-left">Undergraduate Research Assistant @ UC Berkeley</h2>
-				<p class="experience-text text-left">
-					<a href="https://julialang.org/">Julia</a> is a new high-level yet high-performance programming language used for numerical computing.  It gives the flexibility and readability of languages like Python while providing speeds comparable to C.
-				</p>
-				<p class="experience-text text-left">
-					I work closely with <a href="http://www.david-anthoff.com/">Professor David Anthoff</a> to implement and optimize packages that are provide additional data science abstractions in Julia.  Currently, we're working on optimizing the performance of <a href="https://github.com/davidanthoff/Query.jl/">Query.jl</a> (inspired by <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries">C#'s LINQ</a>).
-				</p>
-
-				<hr class="experience-hr">
-
-				<h2 class="experience-title text-right">Software Consultant @ Blockchain at Berkeley</h2>
-				<p class="experience-text text-right">
-					Our small team worked to develop a proof-of-concept decentralized web service for FDA-compliant supply-chain management for pharmaceutical companies.  The <a href="https://www.fda.gov/Drugs/DrugSafety/DrugIntegrityandSupplyChainSecurity/DrugSupplyChainSecurityAct/">Drug Supply Chain Security Act</a> mandates that, over the next few years, pharmaceutical companies have more rigorous insights into their supply chain in order to help identify counterfeit, contaminated, or dangerous drugs -- and to remove these drugs before they're sold to consumers.</p>
-				</p>
-				<p class="experience-text text-right">
-					We wrote a smart contract that runs on the <a href="https://ethereum.org/">Ethereum blockchain</a> to accomplish this, and presented it to the organization and members of the blockchain industry at the end of the semester (after dozens of hours of research, emails, coding, and debugging).  We were awarded with the Best Project distinction.
-				</p>
-				<hr class="bottom-experience-hr">
-			</div><!-- /container -->
-		</div><!-- /experience -->
-
-
-		<!-- Contact -->
-		<div id="contact" class="content-section">
-			<div id="contact-image" class="fixed-background-image"></div>
-			<div class="container">
-				<div class="well well-lg">
-					<h1 class="section-title white-text">Contact Me</h1>
-					<hr class="section-hr">
-
-					<!-- A bunch of buttons -->
-					<a href="#resume"><span class="email-me contact-icon fa fa-envelope-square fa-fw"></span></a>
-                    <a href="https://github.com/n-patel"><span class="contact-icon fa fa-github-square fa-fw"></span></a>
-                    <a href="www.linkedin.com/in/n-patel"><span class="contact-icon fa fa-linkedin-square fa-fw"></span></a>
-				</div>
-			</div><!-- /container -->
-		</div><!-- /contact -->
 	</div><!-- /content -->
 
 
