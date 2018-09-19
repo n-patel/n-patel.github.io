@@ -6,6 +6,20 @@
     margin: 5px 0 0 auto;
 }
 
+@media (max-width: 736px) {
+    .experience-header {
+        flex-direction: column;
+    }
+
+    .experience-title {
+        margin-bottom: 5px;
+    }
+
+    .experience-date {
+        margin: 0 0 20px 0;
+    }
+}
+
 .attr-footer {
     display: flex;
     width: 100%;
