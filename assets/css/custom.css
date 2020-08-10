@@ -47,3 +47,7 @@ li.spaced-li {
 .mb-0 {
     margin-bottom: 0;
 }
+
+.bolder {
+    font-weight: 600;
+}
