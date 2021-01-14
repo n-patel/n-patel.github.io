@@ -1,19 +1,14 @@
-.image:before {
-    background: unset;
+/* don't artificially restrict width */
+#main {
+    max-width: unset;
 }
 
-.thumb {
-    border: 1px solid #ebebeb;
+/* remove section dividers */
+#main > section {
+    border-top: none;
 }
 
-a {
-    color: #b4bfbc;
-}
-
-a.callout-link {
-    color: #49bf9d;
-}
-
+/* Experience section */
 .experience-header {
     display: flex;
     align-items: center;
@@ -39,6 +34,18 @@ a.callout-link {
     }
 }
 
+
+/* Projects section */
+.image:before {
+    background: unset;
+}
+
+.thumb {
+    border: 1px solid #ebebeb;
+}
+
+
+/* Footer section */
 .attr-footer {
     display: flex;
     width: 100%;
@@ -53,6 +60,16 @@ a.callout-link {
 .attr-note a {
     color: inherit;
     border-bottom: 0;
+}
+
+
+/* Utils/misc */
+a {
+    color: #b4bfbc;
+}
+
+a.callout-link {
+    color: #49bf9d;
 }
 
 .light-em {
