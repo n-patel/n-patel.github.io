@@ -16,23 +16,26 @@ a.callout-link {
 
 .experience-header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .experience-date {
-    margin: 5px 0 0 auto;
+    margin: 0;
+}
+
+.experience-title {
+    margin-bottom: 0;
 }
 
 @media (max-width: 736px) {
     .experience-header {
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .experience-title {
         margin-bottom: 5px;
-    }
-
-    .experience-date {
-        margin: 0 0 20px 0;
     }
 }
 
