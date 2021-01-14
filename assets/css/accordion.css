@@ -49,3 +49,11 @@
 ul li.acc_section {
   padding-left: 0;
 }
+
+.accordionjs .acc_section > .acc_head:hover {
+  background-color: #fdfdfd;
+}
+
+.accordionjs .acc_section.acc_active > .acc_head:hover {
+  background-color: unset;
+}
