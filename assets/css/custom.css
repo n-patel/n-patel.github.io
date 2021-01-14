@@ -1,3 +1,11 @@
+a {
+    color: #b4bfbc;
+}
+
+a.callout-link {
+    color: #49bf9d;
+}
+
 .experience-header {
     display: flex;
 }
