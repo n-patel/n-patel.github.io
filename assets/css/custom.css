@@ -87,3 +87,7 @@ li.spaced-li {
 .bolder {
     font-weight: 600;
 }
+
+.para-begin-emoji {
+    margin-right: 10px;
+}
